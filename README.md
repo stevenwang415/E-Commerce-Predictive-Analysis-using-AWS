@@ -40,6 +40,6 @@ The model's performance was evaluated using standard metrics:
 | Mean Squared Error (MSE)| 41.08 | 21.72|
 | root Mean Absolute Error (RMAE)| 4.70 | 3.76|
 
-![Evaluation Metrics](Images/Evaluation Metrics.png)
+![Evaluation Metrics](Images/EvaluationMetrics.png)
  
 SARIMA outperformed LSTM in terms of accuracy, demonstrating its strength in handling seasonal trends. However, LSTM provided flexibility in capturing complex sequential dependencies, showcasing the complementary nature of these models. These results validate the system’s ability to provide reliable short-term forecasts.
