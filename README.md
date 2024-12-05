@@ -33,12 +33,11 @@ A secure and dynamic architecture using Amazon S3 for data storage and Amazon Qu
 
 ## Evaluation Result
 The model's performance was evaluated using standard metrics:
-  LSTM:
-    Mean Absolute Error (MAE): 4.70
-    Mean Squared Error (MSE): 41.08
-    Root Mean Squared Error (RMSE): 6.41
-  SARIMA:
-    Mean Absolute Error (MAE): 3.76
-    Mean Squared Error (MSE): 21.72
-    Root Mean Squared Error (RMSE): 4.66
+
+| Metric                   | LSTM | SARIMA |
+| -------------------------|------|--------|
+| Mean Absolute Error (MAE)| 4.70 | 3.76|
+| Mean Squared Error (MSE)| 41.08 | 21.72|
+| root Mean Absolute Error (RMAE)| 4.70 | 3.76|
+ 
 SARIMA outperformed LSTM in terms of accuracy, demonstrating its strength in handling seasonal trends. However, LSTM provided flexibility in capturing complex sequential dependencies, showcasing the complementary nature of these models. These results validate the system’s ability to provide reliable short-term forecasts.
