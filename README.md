@@ -15,21 +15,6 @@
 10. [Conclusion](#conclusion)
 11. [References](#references)
 
-14. Abstract
-Problem Statement
-Related work
-Architecture
-Implementation Tools
-Methodology/Solutions
-Forecasting Models
-User Interface
-Evaluations
-Contributions
-Limitations
- Conclusion
- References
-
-
 ---
 
 # Abstract
