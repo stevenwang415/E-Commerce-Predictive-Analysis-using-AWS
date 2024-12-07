@@ -6,7 +6,7 @@
 3. [Related Work](#related-work)
 4. [Architecture](#architecture)
 5. [Implementation Tools](#implementation-tools)
-6. [Methodology/Solutions](#methodology-solutions)
+6. [Methodology / Solutions](#methodology-solutions)
   - [Forecasting Models](#forecasting-Models)
   - [User Interface](#user-interface)
 7. [Evaluations](#evaluation-results)
