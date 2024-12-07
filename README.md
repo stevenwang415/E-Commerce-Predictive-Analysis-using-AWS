@@ -4,12 +4,31 @@
 1. [Abstract](#abstract)
 2. [Problem Statement](#problem-statement)
 3. [Related Work](#related-work)
-4. [Solution and Significance](#solution-and-significance)
-5. [Evaluation Results](#evaluation-results)
-6. [Architecture](#architecture)
-7. [Limitations and Future Scope](#limitations-and-future-scope)
-8. [Setup and Usage](#setup-and-usage)
-9. [Contributors](#contributors)
+4. [Architecture](#architecture)
+5. [Implementation Tools](#implementation-tools)
+6. [Methodology/Solutions](#methodology-solutions)
+  - [Forecasting Models](#forecasting-Models)
+  - [User Interface](#user-interface)
+7. [Evaluations](#evaluation-results)
+8. [Contributions](#contribution)
+9. [Limitations](#limitations)
+10. [Conclusion](#conclusion)
+11. [References](#references)
+
+14. Abstract
+Problem Statement
+Related work
+Architecture
+Implementation Tools
+Methodology/Solutions
+Forecasting Models
+User Interface
+Evaluations
+Contributions
+Limitations
+ Conclusion
+ References
+
 
 ---
 
@@ -58,7 +77,7 @@ The custom user interface designed for this project provides a user-friendly pla
 ![Evaluation Metrics](Images/UI.png)
 
 
-# Evaluation Result
+# Evaluations
 The model's performance was evaluated using standard metrics:
 
 | Metric                   | LSTM | SARIMA |
