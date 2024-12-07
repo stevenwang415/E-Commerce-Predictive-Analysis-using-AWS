@@ -97,3 +97,9 @@ Integrating Amazon QuickSight as a visualization layer allows raw predictions to
 
 ## Scalability for the Future
 With this architecture, there is great potential for enhancements to be made in the future, such as the addition of AWS IoT or Kinesis for real-time data streaming and EventBridge or Step Functions for advanced automation. This will enhance the system's ability to scale, be reliable, and respond to changing data needs with ease, thereby being useful for businesses seeking to scale predictive analytics to meet more complex or larger-scale demands.
+
+# Reference
+  - https://www.kaggle.com/datasets/naofilahmad/sales-datset-product-sample 
+  - https://docs.aws.amazon.com/lambda/latest/dg/python-testing.html
+  - https://docs.aws.amazon.com/iam/
+  - https://medium.com/@danilop/aws-lambda-calling-functions-from-a-web-browser-338fbcb6a44d 
