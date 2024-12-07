@@ -46,10 +46,17 @@ Automation of data preprocessing, model training, and prediction workflows throu
 A secure and dynamic architecture using Amazon S3 for data storage and Amazon QuickSight for real-time visualization. The solution enhances decision-making efficiency by reducing manual interventions and providing stakeholders with interactive dashboards for actionable insights.
 
 # Methodlogy / Solution
-We integrated advanced predictive analytics with AWS cloud services to create a robust, scalable solution for e-commerce forecasting. Key novelties include:
-  - The combined use of LSTM and SARIMA models for improved accuracy in capturing sequential and seasonal patterns.
-  - Automation of data preprocessing, model training, and prediction workflows through AWS Lambda.
-  - A secure and dynamic architecture using Amazon S3 for data storage and Amazon QuickSight for real-time visualization. The solution enhances decision-making efficiency by reducing manual interventions and providing  stakeholders with interactive dashboards for actionable insights.
+
+A. Forecasting models
+The combined use of LSTM and SARIMA models enhances prediction accuracy by effectively capturing both sequential and seasonal patterns in the data. AWS Lambda automates the entire workflow, streamlining data preprocessing, model training, and prediction processes, which reduces manual intervention. A secure and dynamic architecture is implemented using Amazon S3 for reliable data storage and Amazon QuickSight for real-time, interactive visualizations. This integrated approach not only optimizes efficiency but also empowers stakeholders with actionable insights through intuitive dashboards, ultimately enhancing decision-making capabilities.
+
+![Evaluation Metrics](Images/Forecasting_Model_Result.png)
+
+B. User Interface
+The custom user interface designed for this project provides a user-friendly platform to interact with and view time-series forecasts and visualizations of predicted sales data. It seamlessly integrates with AWS QuickSight to display dynamic and interactive dashboards that present key metrics, trends, and forecasted data through intuitive charts and graphs. AWS Lambda plays a crucial role in automating the process by triggering whenever new predictions are generated in SageMaker, automatically storing them in an S3 bucket. Lambda then updates the QuickSight dashboard with the latest data, ensuring the visualizations are always up-to-date. This integration streamlines the entire process, reducing manual intervention and offering users real-time insights through the UI, while leveraging cloud automation for efficiency and scalability.
+
+![Evaluation Metrics](Images/UI.png)
+
 
 # Evaluation Result
 The model's performance was evaluated using standard metrics:
@@ -63,6 +70,9 @@ The model's performance was evaluated using standard metrics:
 ![Evaluation Metrics](Images/Evaluation_Metrics.png)
  
 SARIMA outperformed LSTM in terms of accuracy, demonstrating its strength in handling seasonal trends. However, LSTM provided flexibility in capturing complex sequential dependencies, showcasing the complementary nature of these models. These results validate the system’s ability to provide reliable short-term forecasts.
+
+![Evaluation Metrics](Images/Prediction.png)
+
 
 # Limitations
 
