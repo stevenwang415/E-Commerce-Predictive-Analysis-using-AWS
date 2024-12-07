@@ -1,0 +1,58 @@
+body
+{
+    background-image:url("Pbbg2.jpg");
+
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-family:agency fb;
+}
+
+div.ca
+{
+    position: center; 
+    color:white ;
+    font-size: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
+    
+}
+#ia
+{
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+#ib
+{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+address
+{
+    color: azure;
+    position: absolute;
+    bottom:1px;
+    right:10px;
+    font-weight: bolder;
+    text-align: center;
+}
+#ic
+{
+    padding-top:10px;
+    width: 250px;
+}
+
+#ic:link, #ic:visited 
+{
+    background-color: #1d0e04e6;
+    font-size: 25px;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+#ic:hover, #ic:active {
+    background-color: #4a3e36e6;
+}
