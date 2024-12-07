@@ -71,7 +71,9 @@ The model's performance was evaluated using standard metrics:
  
 SARIMA outperformed LSTM in terms of accuracy, demonstrating its strength in handling seasonal trends. However, LSTM provided flexibility in capturing complex sequential dependencies, showcasing the complementary nature of these models. These results validate the system’s ability to provide reliable short-term forecasts.
 
-![Evaluation Metrics](Images/Prediction.png)
+![Evaluation Metrics](Images/Observed_Predicted.png)
+
+![Evaluation Metrics](Images/Hours_Saled.png)
 
 
 # Limitations
@@ -85,7 +87,7 @@ Although AWS provides services such as SageMaker and QuickSight that offer power
 ## Generalization of Data
 The current design of the system may not generalize well for highly dynamic or irregular data patterns. Predictive models can have a hard time adapting to extreme changes in the dataset without manual intervention or architectural changes. This reduces flexibility and may necessitate continuous adjustments to maintain the accuracy and reliability of the predictions.
 
-# Conclutions
+# Conclusions
 
 ## Efficient Integration
 The project shows how Amazon SageMaker, Lambda, S3, and QuickSight work together effectively for a seamless and automated pipeline. These services empower the system to simplify the most complicated machine learning workflows-from data preprocessing and model training to updating predictions in real time-and reduce manual intervention to achieve more operational agility, thereby driving robust e-commerce predictive analytics with efficiency.
