@@ -73,7 +73,7 @@ SARIMA outperformed LSTM in terms of accuracy, demonstrating its strength in han
 
 ![Evaluation Metrics](Images/Observed_Predicted.png)
 
-![Evaluation Metrics](Images/Hours_Saled.png)
+![Evaluation Metrics](Images/Hours_Sales.png)
 
 
 # Limitations
